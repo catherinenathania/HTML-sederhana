@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Kuah Bakso Bening Khas Makassar oleh poppy - Cookpad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8ffe1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo img {
+            height: 40px;
+        }
+        .login-btn {
+            background: #ff6700;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .container {
+            width: 60%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .bahan, .cara {
+            margin-top: 10px;
+        }
+        .reactions {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: left;
+        }
+        .reaction-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .reaction {
+            border: none;
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .save, .share, .print {
+            background: none;
+            border: 1px solid #ffc072;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .save {
+            color: orange;
+            border-color: orange;
+        }
+        .comment-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 10px;
+            background: white;
+        }
+        .comment-input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 8px;
+            font-size: 14px;
+        }
+        .send-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .comments-list {
+            margin-top: 15px;
+        }
+        .comment-item {
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            margin-top: 5px;
+        }
+        .comment-username {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://global-web-assets.cpcdn.com/assets/logo_text-da02013e64b510c60b109001fc44bcb7195f9e3105287817103b6cff4f8e0563.png" alt="Cookpad Logo">
+        </div>
+        <button class="login-btn">Login</button>
+    </div>
+
+    <div class="container">
+        <h1>Kuah Bakso Bening Khas Makassar</h1>
+        <img src="https://img-global.cpcdn.com/recipes/d299e496b6454958/1360x1928cq70/kuah-bakso-bening-khas-makassar-foto-resep-utama.webp" height="964px" width="680px" alt="Gambar Bakso">
+        <div class="content">
+            <h2>poppy @poppyafrina</h2>
+            <p>Bakso kuah di setiap daerah pasti punya ciri khas tersendiri. Untuk ciri khas bakso di Makassar dengan bentuk yang unik (bulat halus, kotak, kasar) yang disajikan dengan kuah yang bening. Setelah berkali-kali trial eror kuah bakso, baru kali ini bikin racikan kuah yang hampir mirip dengan kuah bakso di warung langgananku sekitar jalan sudirman.🤭😂</p>
+            <h3 class="bahan">Bahan-bahan</h3>
+            <ul>
+                <li>3 butir bawang merah iris tipis</li>
+                <li>2 tangkai daun bawang potong kecil</li>
+                <li>1 liter air</li>
+                <li>1 sdm minyak wijen</li>
+                <li>1 sdt bumbu kuah bakso</li>
+                <li>1/2 sdt garam halus</li>
+                <li>1/2 sdt micin</li>
+                <li>1 sdm minyak untuk menumis</li>
+                <li>secukupnya bakso</li>
+            </ul>
+            <hr/>
+            <h3 class="cara">Cara Membuat</h3>
+            <ol>
+                <li>Panaskan 1 sdm minyak di panci</li>
+                <li>Masukkan bawang merah iris, tumis hingga layu</li>
+                <li>Masukkan daun bawang.</li>
+                <li>Masukkan 1 liter air dan bakso sesuai selera</li>
+                <li>Masukkan bumbu kuah bakso, garam, micin dan minyak wijen</li>
+                <li>Tutup panci panaskan sampai mendidih</li>
+                <li>Selamat menikmati!</li>
+            </ol>
+            <div class="reactions">
+                <p><strong>Reaksi</strong></p>
+                <div class="reaction-buttons">
+                    <button class="reaction" onclick="react('like')">❤️  <span id="like-count">4</span></button>
+                    <button class="reaction" onclick="react('clap')">👏 <span id="clap-count">1</span></button>
+                    <button class="reaction" onclick="react('thumbs')">👍 <span id="thumbs-count">0</span></button>
+                </div>
+                <div class="buttons">
+                    <button class="save">🔖 Simpan Resep</button>
+                    <button class="share">🔗 Bagikan</button>
+                    <button class="print">🖨 Print</button>
+                </div>
+            </div>
+            <h2>Cooksnap</h2>
+            <p>Apakah kamu sudah membuat resep ini? Bagikan foto hasil kreasimu!</p>
+            <button class="button" onclick="document.getElementById('upload').click();">Kirim foto Cooksnap</button>
+            <input type="file" id="upload" style="display:none;">
+            <p><a href="#">Selengkapnya mengenai Cooksnap</a></p>
+
+            <h2>Komentar</h2>
+            <div class="comment-box">
+                <input type="text" class="comment-input" id="commentInput" placeholder="Beri komentar">
+                <button class="send-button" onclick="addComment()">➤</button>
+            </div>
+            <div class="comments-list" id="commentsList"></div>
+        </div>
+    </div>
+
+    <script>
+        function react(type) {
+            let countSpan = document.getElementById(type + "-count");
+            let count = parseInt(countSpan.innerText);
+            countSpan.innerText = count + 1;
+        }
+
+        function addComment() {
+            let input = document.getElementById("commentInput");
+            let commentText = input.value.trim();
+            if (commentText !== "") {
+                let commentList = document.getElementById("commentsList");
+                let newComment = document.createElement("div");
+                newComment.classList.add("comment-item");
+                newComment.innerHTML = `<p class="comment-username">Anonim</p><p>${commentText}</p>`;
+                commentList.appendChild(newComment);
+                input.value = "";
+            }
+        }
+    </script>
+</body>
+</html>
